@@ -4,6 +4,10 @@ using namespace std;
 
 class inClass
 {
+    //Access Specifiers are the same as Java
+    //Public allows you to use it from anywhere as long as you have an instance of the object
+    //Private only allows access within the class itself
+    //Protected only accessed in inherited classes
     public: 
         void helloWorld()
         {
